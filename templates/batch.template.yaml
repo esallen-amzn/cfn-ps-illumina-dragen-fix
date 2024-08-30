@@ -383,6 +383,9 @@ Resources:
           - ContainerPath: "/var/lib/edico"
             ReadOnly: False
             SourceVolume: docker_var_lib_edico
+          - ContainerPath: "/usr/lib64"
+            ReadOnly: False
+            SourceVolume: docker_usr_lib64
         Volumes:
           - Name: docker_scratch
             Host:
