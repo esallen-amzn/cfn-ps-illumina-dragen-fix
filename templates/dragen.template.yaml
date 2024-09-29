@@ -16,7 +16,7 @@ Metadata:
     Filters:
       DRAGEN:
         owner-alias: aws-marketplace
-        product-code: 9uotaksivr7km6tn0wa0sy2fw
+        product-code: offer-ihoi7zsptml3o
         product-code.type: marketplace
   AWS::CloudFormation::Interface:
     ParameterGroups:
@@ -78,15 +78,17 @@ Mappings:
     AMI:
       DRAGEN: dragen-completesuite-*
     us-east-1:
-      DRAGEN: ami-03cbd53b0e88e058e
+      DRAGEN: ami-0b4387e89414bbde2
     us-west-2:
       DRAGEN: ami-044299ba1b39c5c13
+    us-west-2-private-ami:
+      DRAGEN: ami-08da604631d3f9359
     eu-central-1:
-      DRAGEN: ami-097ee7e6e7b6bbc0d
+      DRAGEN: ami-070807320b35acd1d
     eu-west-1:
-      DRAGEN: ami-03fa4250b37330bd1
+      DRAGEN: ami-0a3b1dcda746bd01d
     ap-southeast-2:
-      DRAGEN: ami-01df63237b437a659
+      DRAGEN: ami-058a6e883edcdf5ee
 
 Parameters:
   InstanceType:
